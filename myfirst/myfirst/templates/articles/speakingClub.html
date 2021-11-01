@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %} 
+	{% if articles_sc %}
+
+		{% for a in articles_sc %}
+			<h2 href="{% url 'articles:detail' a.id %}">{{a.aTitle}}</h2>
+			<p>{{a.aText}}</p>
+		{% endfor %}
+
+	{% else %}
+		Articles doesn't found
+	{% endif %}
+
+{% endblock %}

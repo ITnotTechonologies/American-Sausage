@@ -1,0 +1,44 @@
+
+{% extends 'base.html' %}
+{% load static%}
+
+
+{% block head %} 
+
+<link rel="stylesheet" href="{% static 'css/main_styles.css'%}">
+{% endblock %}
+
+<!-- <link rel="stylesheet" href="base_styles.css"> -->
+
+{% block title %} Main page {% endblock %}
+
+{% block content %} 
+<!-- 	{% if latest_articles_list %}
+
+		{% for a in latest_articles_list %}
+			<a href="{% url 'articles:detail' a.id %}">{{a.aTitle}}</a>
+		{% endfor %}
+
+	{% else %}
+		Articles doesn't found
+	{% endif %} -->
+	<div class="content_1">
+		
+		<a href="/admin" class="A">admin <br></a>
+
+		<a href="/universities" class="A">
+			Статьи о поступлении в университеты
+		<br></a>
+
+		<a href="/toefl" class="A">
+			TOEFL
+		<br></a>
+
+		<a href="/tipsandlifehacks" class="A">
+			Tips & Lifehacks
+		<br></a>
+	</div>
+
+{% endblock %}
+
+<script src="/base_script.js"></script>

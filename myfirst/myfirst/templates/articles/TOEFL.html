@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+
+{% block content %} 
+	{% if articles_toefl %}
+
+		{% for a in articles_toefl %}
+			<a href="{% url 'articles:detail_toefl' a.id %}">{{a.aTitle}}</a>
+		{% endfor %}
+
+	{% else %}
+		Articles doesn't found
+	{% endif %}
+
+{% endblock %}

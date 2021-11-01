@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="{% static 'css/all.min.css'%}">
+	<link rel="preconnect" href="https://	fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+
+	<link rel="shortcut icon" href="{% static 'img/AmSausLogo.png' %}"  type="image/png">
+	<link rel="stylesheet" href="{% static 'css/base_styles.css'%}">
+	{% block head %} 
+
+	{% endblock %}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% block title %} My site {% endblock %} </title>
+</head>
+<body>
+	<div class="header">
+		<p class="header_name">
+			American Sausage
+		</p>
+
+		<div class="a_h">
+			<a href="/speaking_club" class="h_a">Our Speaking club</a>
+			<a href="/" class="h_a">Home page<!-- <i class="fas fa-home"></i> --></a>
+			<a href="https://instagram.com/american.sausage?utm_medium=copy_link" class="h_a">Our Instagram</a>
+		</div>
+	</div>
+	<div class="div">
+		{% block content %} 
+			
+		{% endblock %}
+	</div>
+	<!-- <img src="{% static 'img/conemu_bgc.jpg' %}" alt="" width = "100px", height = "100px"> -->
+	<script src="{%  static '\js\main.js' %}"></script>
+</body>
+</html>
