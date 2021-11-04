@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-	background-color: #FFBDAE;
+	background-color: #EE8737;
 	width: 100%;
 	height:  100px;
 	display: flex;
@@ -26,7 +26,7 @@ body {
 	margin: 0px;
 }
 
-.a_h {
+/*.a_h {
 	display: flex;
 	flex-direction: row;
 	margin-right: 10px;
@@ -61,9 +61,9 @@ body {
 	background-color: #FF6C6C;
 	border-radius: 25px;
 	border-color: #FF6C6C;
-}
+}*/
 
-a {
+.h_a {
 	transition: 0.5s linear all;
 	padding: 5px;
 	text-transform: uppercase;
@@ -72,7 +72,7 @@ a {
 	font-family: 'Roboto', sans-serif;
 }
 
-a:hover {
+.h_a:hover {
 	background-color: #FF6C6C;
 	border-radius: 25px;
 	border-color: #FF6C6C;
@@ -84,6 +84,79 @@ a:hover {
 	flex-direction: column;
 	/*background-color: black;*/
 	margin-top: 100px;
+}
+
+.short_info {
+	background: url("Photo philes/photo_mainContent00.jpg");
+	background-size: cover;
+	background-position: center;
+
+	/*background-color: black;*/
+	/*background-color: red;*/
+	width: 100%;
+	height: 500px;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.short_info_ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.short_info_h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size:  75px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.short_info_ul_li {
+	transition: 0.3s linear all;
+	margin: 0px;
+	height: 50px;
+	background-color: #FFBDAE ;
+	margin: 10px 0px;
+	display: flex;
+	align-items: center;
+	-webkit-box-shadow: -23px 21px 22px -2px rgba(0, 0, 0, 0.47);
+-moz-box-shadow: -23px 21px 22px -2px rgba(0, 0, 0, 0.47);
+box-shadow: -23px 21px 22px -2px rgba(0, 0, 0, 0.47);
+} 
+
+.short_info_ul_li:hover {
+	background-color: #FF6C6C ;
+	-webkit-box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
+-moz-box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
+box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
+}
+
+.short_info_ul_li_a {
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+
+}
+
+
+.short_info_ul_li_a_div {
+	margin: 0px;
+	display: flex;
+	align-items: center;	
+}
+
+
+.short_info_ul_li_a_div_p {
+	margin-right: 5px;
+	color: white;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*color codes :
