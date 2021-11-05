@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-	background-color: #EE8737;
+	background-color: #FFBDAE;
 	width: 100%;
 	height:  100px;
 	display: flex;
@@ -26,42 +26,7 @@ body {
 	margin: 0px;
 }
 
-/*.a_h {
-	display: flex;
-	flex-direction: row;
-	margin-right: 10px;
-	width: 500px;
-	justify-content: space-between;
-}
 
-.h_a {
-	transition: 0.5s linear all;
-	padding: 5px;
-	text-transform: uppercase;
-	color:  #FFFFFF;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-}
-
-.A {
-		transition: 0.5s linear all;
-	padding: 5px;
-	text-transform: uppercase;
-	color:  #FFFFFF;
-	text-decoration: none;
-}
-
-.A:hover {
-	background-color: #FF6C6C;
-	border-radius: 25px;
-	border-color: #FF6C6C;
-}
-
-.h_a:hover {
-	background-color: #FF6C6C;
-	border-radius: 25px;
-	border-color: #FF6C6C;
-}*/
 
 .h_a {
 	transition: 0.5s linear all;
@@ -86,124 +51,6 @@ body {
 	margin-top: 100px;
 }
 
-.short_info {
-	background: url("Photo philes/photo_mainContent00.jpg");
-	background-size: cover;
-	background-position: center;
-
-	/*background-color: black;*/
-	/*background-color: red;*/
-	width: 100%;
-	height: 500px;
-	display: flex;
-	color: white;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.short_info_ul {
-	display: flex;
-	flex-direction: column;
-}
-
-.short_info_h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size:  75px;
-	margin: 0px;
-	padding: 0px;
-}
-
-.short_info_ul_li {
-	transition: 0.3s linear all;
-	margin: 0px;
-	height: 50px;
-	background-color: #FFBDAE ;
-	margin: 10px 0px;
-	display: flex;
-	align-items: center;
-	-webkit-box-shadow: -23px 21px 22px -2px rgba(0, 0, 0, 0.47);
--moz-box-shadow: -23px 21px 22px -2px rgba(0, 0, 0, 0.47);
-box-shadow: -23px 21px 22px -2px rgba(0, 0, 0, 0.47);
-} 
-
-.short_info_ul_li:hover {
-	background-color: #FF6C6C ;
-	-webkit-box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
--moz-box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
-box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
-}
-
-.short_info_ul_li_a {
-	height: 100%;
-	width: 100%;
-	margin: 10px;
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-
-}
-
-
-.short_info_ul_li_a_div {
-	margin: 0px;
-	display: flex;
-	align-items: center;	
-}
-
-
-.short_info_ul_li_a_div_p {
-	margin-right: 5px;
-	color: white;
-	font-size: 25px;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.unv {
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	height: 650px;
-	display: flex;
-	background-color: black;
-
-}
-
-.unv_slider {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 100%;
-	height: 450px;
-	background-color: red;
-}
-
-.unv_slider_slides {
-	display: none;
-}
-
-.arrows {
-	font-size: 50px;
-}
-
-
-
-#slide_1 {
-	display: flex;
-	width: 500px;
-	height: 100%;
-	align-items:  center;
-	justify-content: center;
-	background:  url("https://studix.eu/wp-content/uploads/2017/11/unnamed-300x197.jpg");
-	background-size: cover;
-	background-clip: center;
-
-}
-
-.slide_h {
-	color: white;
-	
-}
 
 /*color codes :
 1. #FFFFFF - white - какие-то мелкие детали, на фото его мало
@@ -215,3 +62,181 @@ box-shadow: -20px 20px 20px 7px rgba(0, 0, 0, 0.47);
 
 
 */
+
+.content {
+	display:  flex;
+	flex-direction: row;
+  font-size:0;
+   width: 100%;
+  margin: 100px auto 50px auto;
+  flex-wrap: wrap;
+  
+}
+.card {
+	transition: 0.3s linear background;
+	height: 500px;
+  width:350px;
+  margin-bottom:60px;
+  /*margin: 60px 10px;*/
+  padding:45px 45px 70px 45px;
+  box-shadow:4px 4px 5px #FFBDAE;
+  display:inline-block;
+  margin-right:	200px;
+}
+
+.card:hover {
+	background-color: #A3E34C ;
+	box-shadow: none;
+}
+.card no-right-margin {
+  margin-right:0;
+}
+
+
+.title-card{
+  font-size: 24px;
+  font-weight:500;
+  margin-bottom:10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-card {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.card-image {
+  width:100%;
+  margin-bottom:25px; 
+  
+}
+
+
+.header-title {
+  height: 250vh;
+  background-color: #eee;
+  background-image: url(https://images.unsplash.com/photo-1631945387381-d83bbe39cb54?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDkyfHJuU0tESHd3WVVrfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.header-content {
+  font-size: 140px;
+  color: white;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin:auto;
+  font-family: 'Roboto', sans-serif;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display:flex;
+}
+
+.our_team {
+	display: flex;
+	flex-direction: column;
+	background: url("Photo philes/photo_mainContent00.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.our_team_P {
+	display: flex;
+	width: 750px;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: flex-start;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+
+}
+
+.our_team_slider {
+	width: 100%;
+	height: 500px;
+	/*background-color: black;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+ 
+
+}
+
+.our_team_h{
+ 	font-size: 50px;
+ 	color:  white;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+
+.slides {
+	/*background-color: blue;*/
+	width: 700px;
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	display: none;
+}
+
+.slide_img {
+	height: 400px;
+	width: 350px;
+}
+
+.slides_text {
+	display:  flex;
+	flex-direction: column;
+/*	justify-content: ;*/
+	align-items: flex-start;
+	font-family: 'Open Sans', sans-serif;
+	/*background-color: #EE8737;*/
+	background: rgba(254, 234, 171, 0.9);
+	color:  #FFFFFF ;
+	width: 50%;
+	height: 100%;
+}
+
+.slides_text_name {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 0px;
+	font-size: 40px;
+}
+
+.slides_text_who {
+	font-family: 'Open Sans', sans-serif;
+	margin: 5px 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+.slides_text_text {
+	font-family: 'Lobster', cursive;
+	font-size:  20px;
+}
+
+.predisloviye {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.footer {
+	background-color: #FF6C6C;
+	width:  100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	
+}
